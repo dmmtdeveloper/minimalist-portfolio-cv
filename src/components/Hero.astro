@@ -1,0 +1,35 @@
+---
+import { basics } from "@cv";
+const { name, label, image, location, profiles, phone, email } = basics;
+const { city, region } = location;
+---
+
+<section>
+  <div class="container">
+    <div class="info">
+      <h1>{name}</h1>
+      <h2>{label}</h2>
+
+      <span>
+        {city}, {region}
+      </span>
+      <footer>
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          )
+        }
+      </footer>
+    </div>
+    <figure>
+      <img src={image} alt={name} />
+    </figure>
+  </div>
+</section>
+
+<style></style>
