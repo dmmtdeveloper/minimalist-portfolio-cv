@@ -47,7 +47,7 @@
       "highlights": ["Started the company"]
     }
   ],
-  
+
   "education": [
     {
       "institution": "Coding Dojo",
@@ -66,7 +66,7 @@
       "endDate": "Ago-2023"
     },
     {
-      "institution": "Hola mundo",
+      "institution": "Academia Hola mundo",
       "url": "https://drive.google.com/file/d/1v7C4qEXxYn4IrPPlXSuLkhADvsF-p3q7/view",
       "area": "HTML5",
       "studyType": "Curso",
@@ -93,57 +93,25 @@
 
   "projects": [
     {
-      "name": "To do",
+      "name": "API Rest",
       "isActive": true,
-      "description": "Lista de tareas",
-      "url": "https://todo-react-vite-tailwind-project.netlify.app/"
+      "description": "Registro y login de usuario",
+      "highlights": ["TypeScript", "Node", "MongoDB"],
+      "url": "https://github.com/dmmtdeveloper/REST-API"
     },
     {
       "name": "Word analytics",
       "isActive": true,
       "description": "Contador de palabras",
+      "highlights": ["html","css", "JavaScript"],
       "url": "https://word-analytics.glitch.me/"
     },
     {
-      "name": "Codember",
+      "name": "To do",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "description": "Lista de tareas",
+      "highlights": ["React", "css"],
+      "url": "https://todo-react-vite-tailwind-project.netlify.app/"
     }
   ],
 
