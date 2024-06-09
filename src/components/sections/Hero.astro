@@ -15,6 +15,9 @@ const SOCIAL_ICONS: Record<string, any> = {
   LinkedIn,
   X
 }
+
+const linkedInfo = profiles.find(({network}) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url
 ---
 
 <Section>
@@ -26,7 +29,16 @@ const SOCIAL_ICONS: Record<string, any> = {
       <span>
         {city}, {region}
       </span>
+      <span>
+        {phone}
+      </span>
+      <span>
+        {email}
+      </span>
       <footer>
+        <div class="print">
+          {email} | {phone} | {linkedUrl}
+        </div>
         {
           email && (
             <a
