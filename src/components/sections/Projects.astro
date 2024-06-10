@@ -15,7 +15,7 @@ import { projects } from "@cv";
                   <h3>{name}</h3>
                 </a>
                 <p>{description}</p>
-                <a href={url} target="_blank">GitHub</a>
+                {/* <a href={url} target="_blank">GitHub</a> */}
               </header>
               <footer>
                 {highlights.map((highlight) => {
@@ -34,7 +34,7 @@ import { projects } from "@cv";
   ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+    gap: 2rem;
   }
 
   article {
