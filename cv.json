@@ -6,7 +6,7 @@
     "email": "dmmtapia.ux@gmail.com",
     "phone": "Phone 956918388",
     "url": "https://midu.dev",
-    "summary": "Titulado en Dibujo de Proyectos de Arquitectura e Ingeniería. En el año 2022, me interesé por el diseño UX/UI y gracias a esto conocí el mundo del desarrollo web y la programación, en el transcurso del año 2023, me interese en desarrollo Frontend realizando una serie de cursos enfocados principalmente en HTML CSS Y JS,  participé en un Bootcamp FULL STACK MERN JS, donde adquirí las habilidades necesarias para desarrollar proyectos completos que abarcan tanto el frontend como el backend. ",
+    "summary": "Soy titulado en Dibujo de Proyectos de Arquitectura e Ingeniería, y en 2022 descubrí mi pasión por el diseño UX/UI, lo que me llevó a explorar el mundo del desarrollo web y la programación. Durante 2023, me especialicé en desarrollo frontend, profundizando en HTML, CSS y JavaScript. Completé un Bootcamp FULL STACK MERN JS, donde adquirí habilidades clave para construir proyectos completos, desde el frontend hasta el backend. Mi enfoque principal ha sido el desarrollo frontend utilizando React, donde he trabajado en la creación de interfaces de usuario interactivas y eficientes. He integrado Tailwind CSS en mis proyectos para acelerar el diseño y asegurar una experiencia de usuario consistente y moderna. A lo largo de este tiempo, he desarrollado una serie de aplicaciones web, aplicando las mejores prácticas en la estructuración de componentes, manejo del estado y optimización del rendimiento. Mi experiencia incluye la implementación de interfaces adaptativas, utilizando Tailwind CSS para lograr un diseño responsivo y atractivo, alineado con las necesidades del usuario.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -30,7 +30,16 @@
   },
   "work": [
     {
-      "name": "Inwasser",
+      "name": "Trabajo remoto - 7 meses",
+      "position": "Desarrollador Frontend",
+      "url": "",
+      "startDate": "01-01-2024",
+      "endDate": "01-08-2024",
+      "summary": "Desarrollé una página web interactiva utilizando Next.js, enfocándome en la optimización del rendimiento y la experiencia del usuario. Implementé estilos responsivos y modernos con Tailwind CSS, garantizando una interfaz atractiva y funcional en dispositivos móviles y de escritorio. Trabajé en estrecha colaboración con el equipo de diseño, utilizando Figma para transformar prototipos en interfaces de usuario intuitivas y accesibles.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Inwasser - Ingeniería en sistemas y equipos para el tratamiento de agua",
       "position": "Modelador en metodologia BIM",
       "url": "https://inwasser.com",
       "startDate": "01-09-2021",
@@ -39,7 +48,7 @@
       "highlights": ["Started the company"]
     },
     {
-      "name": "Emoj",
+      "name": "Emoj - Oficina consultora de Igeniería",
       "position": "Dibujante proyectista",
       "startDate": "11-01-2010",
       "endDate": "2022",
@@ -49,6 +58,14 @@
   ],
 
   "education": [
+    {
+      "institution": "Socius - Academy (en proceso)",
+      "url": "",
+      "area": "Full Stack",
+      "studyType": "Bootcamp",
+      "startDate": "Jun-2024",
+      "endDate": "Sep-2024"
+    },
     {
       "institution": "Coding Dojo",
       "url": "https://drive.google.com/file/d/1QipivMICt7LNtPL8fwl9xaFthr0JgmAh/view",
@@ -103,7 +120,7 @@
       "name": "Word analytics",
       "isActive": true,
       "description": "Contador de palabras",
-      "highlights": ["html","css", "JavaScript"],
+      "highlights": ["html", "css", "JavaScript"],
       "url": "https://word-analytics.glitch.me/"
     },
     {
@@ -112,6 +129,20 @@
       "description": "Lista de tareas",
       "highlights": ["React", "css"],
       "url": "https://todo-react-vite-tailwind-project.netlify.app/"
+    },
+    {
+      "name": "Enregla web (en proceso)",
+      "isActive": true,
+      "description": "Página web enregla.cl",
+      "highlights": [
+        "css",
+        "nextJs",
+        "Tailwind CSS",
+        "TypeScript",
+        "Framer Motion",
+        "React Email & Resend."
+      ],
+      "url": "https://1fvjgn2w-3000.brs.devtunnels.ms/"
     }
   ],
 
@@ -158,6 +189,12 @@
     },
 
     {
+      "name": "Astro",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+
+    {
       "name": "GitHub",
       "level": "Avanzado",
       "keywords": [
@@ -177,6 +214,11 @@
         "SSR",
         "Static Generation"
       ]
+    },
+    {
+      "name": "Figma",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "React",

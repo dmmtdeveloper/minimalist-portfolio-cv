@@ -6,8 +6,12 @@ import {skills} from "@cv"
 <Section title="Skills">
 <ul>
     {
-        skills.map(({name}) => (
-            <li><span>{name}</span></li>
+        skills.map(({name, level}) => (
+            <li>
+                <span>{name} /</span>
+                <span>{level}</span>
+
+            </li>
         ))
     }
 </ul>
@@ -22,10 +26,10 @@ import {skills} from "@cv"
 
     li{
         border-radius: 6px;
-        background: #eee;
-        color: black;
+        background-color: #25D366;
+        color: white;
         font-size: 0.8rem;
-        font-weight: 500;
+        font-weight: 400;
         padding: 0.2rem 0.6rem;
     }
 </style>
